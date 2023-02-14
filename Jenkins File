@@ -1,0 +1,2 @@
+pipeline {
+label agent 'window jenkins agent'
