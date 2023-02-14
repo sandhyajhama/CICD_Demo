@@ -1,2 +1,11 @@
 pipeline {
-label agent 'window jenkins agent'
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
